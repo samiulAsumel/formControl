@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+      75deg,
+      rgba(210, 226, 59, 0.459),
+      rgba(8, 83, 156, 0.75)
+    ),
+    url("../assets/images/Travel-Background.jpg");
+  background-size: cover;
+  opacity: 5.5;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 21px;
+  padding: 0px;
+  margin: 10px;
+  font-family: "Ga Maamli", sans-serif;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: burlywood;
+}
+
+nav > ul > li > a:hover {
+  color: blueviolet;
+}
+
+nav > ul > li > a:active {
+  color: red;
+}
+
+section > h1 {
+  text-align: center;
+  font-family: "Playwrite GB S", sans-serif;
+  font-size: 50px;
+  color: rgb(155, 55, 205);
+  margin-top: 35px;
+  padding: 10px;
+}
+
+.travelPara {
+  text-align: justify;
+  font-family: "Playwrite GB S", sans-serif;
+  font-size: 20px;
+  color: rgb(32, 10, 43);
+  margin: 10px;
+  padding: 10px;
+}
+
+#travelReg {
+  text-align: left;
+  font-family: "Ga Maamli", sans-serif;
+  margin-top: 35px;
+  padding-top: 20px;
+  margin-left: 15px;
+  color: rgb(26, 17, 148);
+}
+
+#regForm {
+  text-align: center;
+  font-family: "Ga Maamli", sans-serif;
+  font-size: 20px;
+  margin-top: 35px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-left: 15px;
+  margin-bottom: 25px;
+  color: rgb(168, 196, 46);
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: rgb(33, 57, 109);
+  width: 500px;
+  height: auto;
+}
+
+label {
+  display: block;
+}
+
+.btn {
+  margin-bottom: 15px;
+  padding: 5px;
+  font-size: 20px;
+  font-family: "Ga Maamli", sans-serif;
+  color: royalblue;
+  background-color: orangered;
+}
