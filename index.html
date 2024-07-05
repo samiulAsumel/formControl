@@ -3,7 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Location</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1>Travel Site Booking</h1>
+        <p class="travelPara">
+          Embark on your next adventure with ease by booking through our
+          seamless and user-friendly platform. Whether you're dreaming of a
+          tropical escape, a cultural city tour, or a serene countryside
+          retreat, we offer a wide range of accommodations and travel packages
+          to suit every preference and budget. Our intuitive search tools and
+          comprehensive filters make it simple to find the perfect flight,
+          hotel, or vacation bundle tailored to your needs. Plus, with our
+          secure payment options and dedicated customer support, you can book
+          with confidence, knowing that we’re here to ensure your trip is smooth
+          from start to finish. Explore, book, and get ready to create
+          unforgettable memories with us.
+        </p>
+        <p id="travelReg">
+          If you want to travel with us, Please registration.
+          <small class="small"
+            >Registration is required for all travel packages.</small
+          >
+        </p>
+      </section>
+      <section>
+        <h1>Registration Form</h1>
+        <form action="#" class="registrationForm">
+          <div class="regForm">
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="fname" />
+
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname" />
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+
+          <div class="reset">
+            <p><small>Check & Reset</small></p>
+            <input type="reset" value="Reset" />
+          </div>
+
+          <div class="submit">
+            <p><small>Check & Submit</small></p>
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
